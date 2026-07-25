@@ -1,6 +1,6 @@
 # design of the project and segmentation:
 
-
+ 
 ## Smart Restaurant Order & BillingSystem:
 <img width="1918" height="507" alt="image" src="https://github.com/user-attachments/assets/a40f57dd-f0ca-4dc0-941f-ceef6ccb6446" />
 
