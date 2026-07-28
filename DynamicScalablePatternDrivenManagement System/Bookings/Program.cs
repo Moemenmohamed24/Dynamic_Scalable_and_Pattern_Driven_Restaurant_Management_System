@@ -5,17 +5,17 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
 
-
 class Program
 {
     static void Main(string[] args)
     {
-
-       // FullBooking fullBooking = new CoupleBooking();
-        FullBooking fullBooking = new GroupBooking();
+        //<------------------------------------------------Testing Factory Method design pattern---------------------------->
 
 
-        Booking booking = fullBooking.BookingOrder("Group");
+        // FullBooking fullBooking = new CoupleBooking();
+        //FullBooking fullBooking = new GroupBooking();
+
+        //Booking booking = fullBooking.BookingOrder("Group");
 
         /*
         In other words, BGroup is also BPersonalData.
@@ -29,15 +29,15 @@ class Program
         Does the actual object(BGroup) inherit from BPersonalData ?
         */
 
-        if (booking is PersonalData bPersonalData)
-        {
-            //  bPersonalData.AddExtrSeats(2);
-            bPersonalData.UpgradeSeats();
+        //if (booking is PersonalData bPersonalData)
+        //{
+        //    //  bPersonalData.AddExtrSeats(2);
+        //    bPersonalData.UpgradeSeats();
 
-        }
+        //}
         //casting BPersonalData personalData = (BPersonalData)myBooking; 
 
-
+        //<------------------------------------------------Testing Decorator design pattern--------------------------------->
 
         //Tableseats oder1 = new SimpleTable();
         //oder1 = new Centerpieces(oder1);
@@ -47,10 +47,17 @@ class Program
         //Console.WriteLine($" all sheap of tabel : {oder1.Discribtion()} \n  cost of the tabel = {oder1.getPrice()} $ ");
 
 
+        //<-------------------------------------------------Testing Strategy design pattern--------------------------------->
 
         //PaymentInterface Sterategy = new BankTransferPayment();
         //PaymentProcessor process = new PaymentProcessor(Sterategy);
         //process.Pay(4);
+
+
+        //<-------------------------------------------------Simple Factory Design Pattern--------------------------------->
+        FoodFactory foodFactory = new FoodFactory();
+        IFood IFood = foodFactory.CreateFood("pizza");
+        IFood.Make();
 
 
     }
