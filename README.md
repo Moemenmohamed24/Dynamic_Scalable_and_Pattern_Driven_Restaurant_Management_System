@@ -2,7 +2,8 @@
 
  
 ## Smart Restaurant Order & BillingSystem:
-<img width="1918" height="507" alt="image" src="https://github.com/user-attachments/assets/a40f57dd-f0ca-4dc0-941f-ceef6ccb6446" />
+<img width="1048" height="286" alt="image" src="https://github.com/user-attachments/assets/a3e8518e-e569-41ce-a245-c52fdfdf26ce" />
+
 
 
 ##  basic flow of  restaurant: 
