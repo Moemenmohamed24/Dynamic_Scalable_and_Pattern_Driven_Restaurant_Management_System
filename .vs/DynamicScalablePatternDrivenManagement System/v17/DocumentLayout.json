@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|solutionrelative:dynamicscalablepatterndrivenmanagement system\\bookings\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|c:\\users\\mohamed hamous\\source\\repos\\dynamicscalablepatterndrivenmanagement system\\dynamicscalablepatterndrivenmanagement system\\drinks\\juice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|solutionrelative:dynamicscalablepatterndrivenmanagement system\\drinks\\juice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|c:\\users\\mohamed hamous\\source\\repos\\dynamicscalablepatterndrivenmanagement system\\dynamicscalablepatterndrivenmanagement system\\food\\foodfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B00F188E-60B8-4263-877D-675D078067B4}|DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System.csproj|solutionrelative:dynamicscalablepatterndrivenmanagement system\\food\\foodfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Juice.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\Drinks\\Juice.cs",
+              "RelativeDocumentMoniker": "DynamicScalablePatternDrivenManagement System\\Drinks\\Juice.cs",
+              "ToolTip": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\Drinks\\Juice.cs",
+              "RelativeToolTip": "DynamicScalablePatternDrivenManagement System\\Drinks\\Juice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T11:17:03.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FoodFactory.cs",
               "DocumentMoniker": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\Food\\FoodFactory.cs",
               "RelativeDocumentMoniker": "DynamicScalablePatternDrivenManagement System\\Food\\FoodFactory.cs",
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "DynamicScalablePatternDrivenManagement System\\Bookings\\Program.cs",
               "ToolTip": "C:\\Users\\Mohamed Hamous\\source\\repos\\DynamicScalablePatternDrivenManagement System\\DynamicScalablePatternDrivenManagement System\\Bookings\\Program.cs*",
               "RelativeToolTip": "DynamicScalablePatternDrivenManagement System\\Bookings\\Program.cs*",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwDsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-01T23:21:34.455Z",
               "EditorCaption": ""
