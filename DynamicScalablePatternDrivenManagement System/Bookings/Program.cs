@@ -61,24 +61,25 @@ class Program
         //IFood.Make();
 
 
-
-
         //<-------------------------------------------------Simple Factory Design Pattern in drinks--------------------------------->
 
-        String category = "hot";
+        //String category = "hot";
 
-        // return HotDrinkFactory object , which DrinkFactory Factory  static object and HotDrinkFactory is a dynamic object
-        //HotDrinkFactory dynamic object that will work GetFactory using the polymorphism 
-        DrinkFactory Factory = DrinkFactory.GetFactory("hot");
+        //// return HotDrinkFactory object , which DrinkFactory Factory  static object and HotDrinkFactory is a dynamic object
+        ////HotDrinkFactory dynamic object that will work GetFactory using the polymorphism 
+        //DrinkFactory Factory = DrinkFactory.GetFactory("hot");
 
-        //work GreatFactory of the HotDrinkFactory
-        IDrinks Drink = Factory.CreateDrink("Coffee");
-        //return Coffee object , which Drink static object  , and Coffee is a dynamic object
-        //Coffee dynamic object that will work Prepare using the polymorphism 
+        ////work GreatFactory of the HotDrinkFactory
+        //IDrinks Drink = Factory.CreateDrink("Coffee");
+        ////return Coffee object , which Drink static object  , and Coffee is a dynamic object
+        ////Coffee dynamic object that will work Prepare using the polymorphism 
 
-        Drink.Prepare();
+        //Drink.Prepare();
 
 
+        //<-------------------------------------------------Simple Factory Design Pattern in Seats--------------------------------->
+        ISeatingPlace SeatingPlace = SeatingFactory.GetSeating("roof");
+        SeatingPlace.GetDescription();
 
 
 

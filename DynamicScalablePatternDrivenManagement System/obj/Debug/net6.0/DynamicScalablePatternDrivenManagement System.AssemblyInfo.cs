@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DynamicScalablePatternDrivenManagement System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e73b73c3bcffd5e7167b3ba44c34443b199234e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9bf09b56c48f2267e5befb221debe8199375405")]
 [assembly: System.Reflection.AssemblyProductAttribute("DynamicScalablePatternDrivenManagement System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DynamicScalablePatternDrivenManagement System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
